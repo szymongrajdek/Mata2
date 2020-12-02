@@ -19,4 +19,5 @@ int RzutKostka()
 int main()
 {
      RzutKostka();
+    return();
 }

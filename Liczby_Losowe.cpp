@@ -8,12 +8,15 @@ int RzutKostka()
 {
     default_random_engine losowy_generator;
     uniform_int_distribution<int> distribution(1,6);
-    return distribution(losowy_generator);
+    for(int i=0;i<10;i++)
+    {
+        cout<< distribution(losowy_generator)<<endl;
+    }
 
 
 }
 
 int main()
 {
-    return RzutKostka();
+     RzutKostka();
 }
